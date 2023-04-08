@@ -1,0 +1,58 @@
+
+blockquote {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #efefef;
+    border: none;
+}
+
+.btn:active {
+    background-color: white;
+}
+.btn:hover{
+    background-color: white;
+}
+
+.button {
+    text-align: center;
+}
+
+h1 {
+    color: black
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.form-check {
+    color: white;
+}
+
+/* адаптивность */
+
+@media (max-width: 768px) {
+    
+    blockquote {
+        font-size: 16px;
+    };
+
+    .form-check {
+        font-size: 16px;
+    }
+    
+    .btn {
+        font-size: 16px;
+    }
+}
